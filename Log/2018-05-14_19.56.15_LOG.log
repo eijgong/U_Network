@@ -1,0 +1,5 @@
+2018/05/14 19:56:15.268040 [1;35m[TRACE][m GID 1, main() main.go:47 Node version:  
+2018/05/14 19:56:15.268040 [0;32m[INFO ][m GID 1, 0. Loading the Ledger
+2018/05/14 19:56:15.313529 [0;32m[INFO ][m GID 1, 1. BlockChain init
+2018/05/14 19:56:15.314532 [0;32m[INFO ][m GID 1, 2. Open the account
+2018/05/14 19:56:15.314532 [0;31m[FATAL][m GID 1, No wallet.dat detected, please create a wallet by using command line.

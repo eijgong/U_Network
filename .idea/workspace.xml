@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36da9638-7bb7-46a0-b0fa-d3fa8ba53ff2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/account.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/coin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/fileStore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/store.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/asset/asset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/bookkeeper/bookkeeper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/common/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/data/data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/debug/debug.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/info/info.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/multisig/multisig.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/privpayload/privpayload.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/recover/recover.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/smartcontract/smartcontract.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/test/test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/wallet/wallet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Fixed64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/compactUint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/hash.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/inventory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/log/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/log/log_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/password/password.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/serialization/serialize.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/serialization/serialize_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/uint160.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/uint256.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/consensus.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/changeView.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/consensusContext.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/consensusMessage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/consensusMessageType.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/consensusState.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/dbftService.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/prepareRequest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/dbft/prepareResponse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/policy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/policyLevel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/account/accountstate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/asset/LockedAsset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/asset/asset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/code/Code.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/code/FunctionCode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/ContractType.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/contract.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/contractBuilder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/contractContext.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/contractParameter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/program/Program.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/program/ProgramBuilder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/program/ProgramBuilder_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/contract/pubkeyParameter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/forum/like.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/forum/post.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/forum/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/forum/withdraw.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ledger/block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ledger/blockchain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ledger/blockdata.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ledger/header.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ledger/ledger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ledger/ledgerStore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ledger/state.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/signature/signature.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/signature/signer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/signature/verifier.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/store/ChainStore/CacheCodeTable.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/store/ChainStore/ChainStore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/store/ChainStore/DBCache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/store/DataEntryPrefix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/store/LevelDBStore/LevelDBStore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/store/LevelDBStore/iterator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/store/store.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/TransactionBuilder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/TransactionResult.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/TranscationPool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/balanceTxInput.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/BookKeeper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/BookKeeping.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/DataFile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/DeployCode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/InvokeCode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/IssueAsset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/Like.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/LockAsset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/Post.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/PrivacyPayload.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/Record.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/RegisterAsset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/RegisterUser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/Reply.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/TransferAsset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/payload/Withdrawal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/transaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/txAttribute.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/txOutput.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/txStore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/utxoTxInput.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction/utxoUnspent.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validation/blockValidator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validation/txValidator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/validation/validation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/helper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/merkleTree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/merkleTree_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/p256r1/p256r1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/sm2/sm2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/sm3/sm3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/sm3/sm3_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/sm3/sm3block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/util/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/specifications/data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/specifications/vm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/callstack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/errcode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/errors_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/ugcerror.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/event.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/eventType.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/event_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/signalset/signalset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/subscriber.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glide.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glide.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/RPCserver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/TransPayloadToHex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/interfaces.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/ipfsclusterAPI.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/ipfsclusterAPI_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/rpcResult.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpjsonrpc/sampleTransaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpnodeinfo/ngbnodeinfo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpnodeinfo/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpnodeinfo/template.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpwebsocket/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpwebsocket/session/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpwebsocket/session/sessionlist.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/httpwebsocket/websocket/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/address.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/blockHdr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/chat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/consensus.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/inventory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/message.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/notfound.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/ping.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/pong.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/transaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/verack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/message/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/net.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/node/eventNotice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/node/idCache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/node/infoUpdate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/node/link.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/node/node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/node/nodeMap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/node/transactionPool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/protocol/protocol.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodectl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/sdk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/service/statemachine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/service/statereader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/service/storagecontext.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/service/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/smartcontract.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/accountstate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/assetstate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/contractstate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/interfaces.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/statebase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/states_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/storageitem.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/storagekey.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/states/validatorstate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/storage/dbcache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/storage/rwset.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcontract/types/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/asset.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/common.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testPrivPayload.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/ECDsaCrypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/common_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/execution_context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/execution_engine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_arithmetic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_arithmetic_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_array_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_bitwise.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_flowcontrol.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_pushdata.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_splice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/func_validate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/interfaces/code_container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/interfaces/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/interfaces/icodetable.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/interfaces/interop.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/interop_service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/opcode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/opcode_exec.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/params.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/params_builder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/stackitem.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/types/array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/types/boolean.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/types/bytearray.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/types/integer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/types/interop.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/types/stackiteminterface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/utils/vm_reader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/utils/vmreader_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/avm/vm_state.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/Interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/abi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/argument.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/event.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/method.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/number.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/packing.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/reflect.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/abi/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/analysis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/common/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/contract.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/contracts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/crypto/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/evm_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/execute_engine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/instructions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/instructions_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/jump_table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/memory.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/memory_table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/opcode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/params.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/stack_table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/ballot/ballot.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/ballot/ballot_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/coin/coin.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/coin/coin_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/deal/deal.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/deal/deal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/evm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/example/example.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/evm/test_case/example/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/execution_engine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/func_crypto.go" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="account.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UNetwork/account/account.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-395">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p256r1.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UNetwork/crypto/p256r1/p256r1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <folding>
+                <element signature="e#16#129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="int.go" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/math/big/int.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rand.go" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/crypto/rand/rand.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crypto.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UNetwork/crypto/crypto.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154">
+              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UNetwork/crypto/util/util.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>newaccount</find>
+      <find>genkeypair</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/UNetwork/main.go" />
+        <option value="$PROJECT_DIR$/src/UNetwork/crypto/p256r1/p256r1.go" />
+        <option value="$PROJECT_DIR$/src/sign/sign.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="p256r1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="ecdsa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="elliptic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="rand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="encoding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.1" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="encoding" type="462c0819:PsiDirectoryNode" />
+              <item name="asn1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/spec256r1" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="UNetwork" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/UNetwork/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build main.go/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="UNetwork" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="C:\UNetwork\src\UNetwork\main.go" />
+      <output_directory value="C:\UNetwork\output" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go/" />
+      <item itemvalue="Go Build.go build main.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go/" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298351" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30975956" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993994" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/UNetwork/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UNetwork/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/asn1/marshal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="674" column="5" selection-start-line="674" selection-start-column="5" selection-end-line="674" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/ecdsa/ecdsa.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/elliptic/p256_amd64.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/elliptic/elliptic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="378" column="15" selection-start-line="378" selection-start-column="11" selection-end-line="378" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/rand/rand.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UNetwork/crypto/util/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UNetwork/crypto/crypto.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/math/big/int.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sign/sign.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UNetwork/net/httpjsonrpc/interfaces.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="606" column="31" selection-start-line="606" selection-start-column="31" selection-end-line="606" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UNetwork/account/account.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UNetwork/crypto/p256r1/p256r1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="e#16#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

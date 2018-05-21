@@ -1,0 +1,36 @@
+{
+  "Configuration": {
+    "Magic": 7630401,
+    "Version": 23,
+    "SeedList": [
+      "127.0.0.1:10338",
+      "127.0.0.1:20338",
+      "127.0.0.1:30338",
+      "127.0.0.1:40338"
+    ],
+    "BookKeepers": [
+      "026cf1d92dd8cf86887652a7084040f062b477f32ff79e67c1fa1f25be0c9731e7",
+      "02fcc876769dd87877ae0a3e2d425ac74cc35cf0e6a290a3a6345b6e5ec0af9782",
+      "03a6029c40c1769ef247af65b3042fec4e94512ce4bf39dd2c8e8da045eabd4d50",
+      "0250fa05d53aadf59b6ad39eb1afb004e5394bbf2ab190a6d53c36dc8eb288ed66"
+    ],
+    "HttpInfoPort": 20333,
+    "HttpInfoStart": true,
+    "HttpRestPort": 10334,
+    "HttpWsPort":10335,
+    "HttpJsonPort": 10336,
+    "NoticeServerUrl":"",
+    "OauthServerUrl":"",
+    "NodePort": 10338,
+    "NodeType": "verify",
+    "PrintLevel": 1,
+    "IsTLS": false,
+    "CertPath": "./sample-cert.pem",
+    "KeyPath": "./sample-cert-key.pem",
+    "CAPath": "./sample-ca.pem",
+    "MultiCoreNum": 4,
+    "TransactionFee": {
+	"Transfer": 0.0000
+    }
+  }
+}
